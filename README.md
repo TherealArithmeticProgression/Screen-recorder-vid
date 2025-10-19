@@ -3,7 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
 
-# Screen Video Recorder
 
 A lightweight Python-based screen recording tool that captures your entire screen and saves it as a video file. Built with OpenCV and PyAutoGUI for seamless, cross-platform screen recording.
 
