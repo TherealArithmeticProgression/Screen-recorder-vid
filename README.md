@@ -30,7 +30,15 @@ cd screen-video-recorder
 ```bash
 pip install -r requirements.txt
 ```
+## ⚠️ Important Warning
+This tool only works on local systems with a display. Do NOT attempt to run this code on:
 
+Remote servers (SSH, VPS, cloud instances)
+Docker containers without display forwarding
+Headless systems or CI/CD pipelines
+Any environment without a graphical interface
+
+PyAutoGUI requires direct access to your system's display to capture screenshots. Running it on a remote environment will result in errors or unexpected behavior. Always run this recorder locally on your machine.
 ## Requirements
 
 The project uses the following Python libraries:
